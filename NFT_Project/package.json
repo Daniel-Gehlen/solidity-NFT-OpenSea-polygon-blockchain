@@ -1,0 +1,17 @@
+{
+  "name": "NFT_Project",
+  "version": "1.0.0",
+  "description": "Creating an NFT on OpenSea Polygon blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "deploy": "truffle migrate --network polygon"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "truffle": "^5.4.0",
+    "web3": "^1.5.3"
+  }
+}
